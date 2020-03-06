@@ -1,1 +1,1 @@
-# pythonHtml
+# Скачать файл lesson.py  и запустить его через cmd
