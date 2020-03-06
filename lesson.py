@@ -73,7 +73,7 @@ class HTML:
         html = "<html>\n"
         for child in self.children:
             html += str(child)
-        html += "\n</html>"
+        html += "</html>\n"
         return html
 
 
@@ -96,7 +96,7 @@ class TopLevelTag:
         html = "<%s>\n" % self.tag
         for child in self.children:
             html += str(child)
-        html += "\n</%s>" % self.tag
+        html += "\n</%s>\n" % self.tag
         return html
 
 
